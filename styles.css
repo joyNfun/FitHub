@@ -13,13 +13,14 @@
 
 
 nav {
-    margin: 0; 
+    margin: 0;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0; 
+}
 
 nav ul li {
     display: inline;
@@ -33,7 +34,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #d4edda;
+    color: #d4edda; 
 }
 
 
@@ -47,7 +48,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 800px; 
     margin: Auto 
     padding: 50px; 
     background: #ffffff; 
@@ -110,7 +111,7 @@ p, ul {
     font-size: 1.1em;
 }
 
-
+/* Form Styles */
 form {
     display: flex;
     flex-direction: column;
@@ -146,7 +147,7 @@ footer {
     text-align: right; 
     padding: 20px; 
     margin: 0; 
-    position: relative; 
+    position: relative;
     bottom: 0;
     width: 100%; 
     box-sizing: border-box; 
