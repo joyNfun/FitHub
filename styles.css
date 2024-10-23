@@ -1,29 +1,76 @@
 
+.header-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #089797; 
+    padding: 10px 20px; 
+}
+
+.logo {
+    max-height: 60px; 
+}
+
+
+nav {
+    margin: 0; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #d4edda;
+}
+
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 .container {
     max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    margin: Auto 
+    padding: 50px; 
+    background: #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
 }
 
+h1 {
+    color: #089797;
+    text-align: left; 
+    font-size: large; 
+    padding-left: 20px; 
+}
 
 header {
-    text-align: center;
-    margin-bottom: 20px;
+    background-color: #089797; 
+    padding: 20px;
 }
 
 .logo {
     width: 150px;
 }
+
 
 
 nav {
@@ -42,27 +89,28 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: white; 
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #28a745; 
-
+    color: #d4edda;
+}
 
 .content {
     margin: 20px 0;
 }
 
 h2 {
-    color: #28a745; 
+    color: #089797;
+    margin: 20px 0;
 }
 
 p, ul {
     font-size: 1.1em;
 }
 
-/* Form Styles */
+
 form {
     display: flex;
     flex-direction: column;
@@ -80,7 +128,7 @@ input, textarea {
 }
 
 button {
-    background-color: #28a745;
+    background-color: #089797;
     color: white;
     border: none;
     padding: 10px;
@@ -89,12 +137,18 @@ button {
 }
 
 button:hover {
-    background-color: #218838; 
+    background-color: #089797; 
 }
-
 
 footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9em;
+    background-color: #089797; 
+    color: white; 
+    text-align: right; 
+    padding: 20px; 
+    margin: 0; 
+    position: relative; 
+    bottom: 0;
+    width: 100%; 
+    box-sizing: border-box; 
 }
+
