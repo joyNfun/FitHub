@@ -10,13 +10,13 @@
     <header>
         <div class="header-container">
             <img src="images/logo.png" alt="FitHub Logo" class="logo">
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="workouts.html">Workouts</a></li>
                     <li><a href="programs.html">Programs</a></li>
-                    <li><a href="coaches.html">Coaches</a></li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
@@ -27,16 +27,28 @@
     <section class="content">
         <h2>Workouts</h2>
         <p>Explore a variety of workout types designed to suit different fitness goals:</p>
-        <ul>
-            <li>Cardio Workouts</li>
-            <li>Strength Training</li>
-            <li>Flexibility & Mobility Training</li>
-            <li>High-Intensity Interval Training (HIIT)</li>
-        </ul>
+        
+        <div class="workout-container">
+            <div class="workout-item">
+                <img src="images/type_car.jpg" alt="Cardio Workouts" class="class-image">
+                <p> <a href="cardio.html" class="cta-button">Cardio Workouts</a></p>
+            </div>
+            <div class="workout-item">
+                <img src="images/type_weight.jpg" alt="Strength Training" class="class-image">
+                <p> <a href="strength" class="cta-button">Strength Training</a></p>
+            </div>
+            <div class="workout-item">
+                <img src="images/type_flexibility.jpg" alt="Flexibility & Mobility Training" class="class-image">
+                <p> <a href="flexibility.html" class="cta-button">Flexibility & Mobility Training</a></p>
+            </div>
+        </div>
     </section>
 
     <footer>
         <p>&copy; 2024 FitHub - All Rights Reserved</p>
     </footer>
+     <!-- Link the external JavaScript file -->
+     <script src="scripts.js"></script>
+
 </body>
 </html>

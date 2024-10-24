@@ -10,13 +10,13 @@
     <header>
         <div class="header-container">
             <img src="images/logo.png" alt="FitHub Logo" class="logo">
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="workouts.html">Workouts</a></li>
                     <li><a href="programs.html">Programs</a></li>
-                    <li><a href="coaches.html">Coaches</a></li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
@@ -27,15 +27,52 @@
     <section class="content">
         <h2>Training Programs</h2>
         <p>We offer structured workout programs for all fitness levels:</p>
-        <ul>
-            <li>Beginner Workout Program</li>
-            <li>Intermediate Workout Program</li>
-            <li>Advanced Workout Program</li>
-        </ul>
+
+        <div class="program-container">
+            <div class="program-item">
+                <img src="images/beginner.jpg" alt="Beginner Workout Program" class="class-image">
+                <div class="program-details">
+                    <p><a href="beginnerpro.html" class="cta-button">Beginner Workout Program</a></p>
+                    <ul>
+                        <li>Introduction to basic exercises</li>
+                        <li>Focus on form and technique</li>
+                        <li>Gradual increase in intensity</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="program-item">
+                <img src="images/intermediate.jpg" alt="Intermediate Workout Program" class="class-image">
+                <div class="program-details">
+                    <p><a href="intermediatepro.html" class="cta-button">Intermediate Workout Program</a></p>
+                    <ul>
+                        <li>More challenging routines</li>
+                        <li>Build on foundational strength</li>
+                        <li>Increase workout variety</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="program-item">
+                <img src="images/advanced.jpg" alt="Advanced Workout Program" class="class-image">
+                <div class="program-details">
+                    <p><a href="advancedpro.html" class="cta-button">Advanced Workout Program</a></p>
+                    <ul>
+                        <li>High-intensity workouts</li>
+                        <li>Advanced techniques and exercises</li>
+                        <li>Performance-focused training</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
         <p>&copy; 2024 FitHub - All Rights Reserved</p>
     </footer>
+
+     <!-- Link the external JavaScript file -->
+     <script src="scripts.js"></script>
+
 </body>
 </html>
